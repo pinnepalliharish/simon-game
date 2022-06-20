@@ -8,6 +8,13 @@ var userClickedPattern=[];
 var level=0;
 var started=false;
 
+$("#start").click(function(){
+    if(! started){
+        nextSequence();
+        started=true;
+    }
+})
+
 function nextSequence(){
 
     
